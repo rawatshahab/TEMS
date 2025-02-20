@@ -139,7 +139,7 @@ button {
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px;
     margin: 20px;
 }
@@ -150,5 +150,35 @@ button {
 
 .ig2{
     height: 90vh;
-    border: 3px solid white;
+    /* border: 3px solid white; */
+}
+
+
+
+
+/* footer */
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    width: 25%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.foot-2,.foot-nav{
+    display: flex;
+    direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
 }
