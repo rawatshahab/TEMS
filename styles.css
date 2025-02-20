@@ -223,15 +223,28 @@ button {
 }
 
 
+
+.line{
+    border: 1px solid white;
+    width: 100%;
+}
 /* footer */
 
 .footer{
+    /* border: 3px solid blue; */
+    width: 90%;
+    margin: 50px;
+    margin-top: 20px;
     display: flex;
-    justify-content: space-around;
-    width: 20%;
-    margin: 100px;
-    align-items: flex-start;
+    justify-content: space-between;
+    /* align-items: flex-start; */
     gap: 80px;
+
+}
+.foot-1,.foot-2,.foot-3,.foot-4{
+    /* border:2px solid white; */
+    margin: 10px;
+    width: 25%;
 
 }
 
