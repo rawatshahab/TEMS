@@ -103,7 +103,17 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    transition: transform 0.7s ease, box-shadow 0.7s ease, background-color 0.7s ease, color 0.7s ease;
 }
+
+button:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(255, 84, 0, 0.3);
+}
+
+
 
 .next-home{
     /* border: 3px solid red; */
@@ -119,7 +129,7 @@ button {
     padding: 20px;
     margin: 20px;
     width: 30%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(229, 95, 95, 0.2);
     border-radius: 5px;
     height: 70%;
 }
@@ -221,8 +231,6 @@ button {
     height: 100%;
     gap: 20px;
 }
-
-
 
 .line{
     border: 1px solid white;
