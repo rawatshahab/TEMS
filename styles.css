@@ -156,29 +156,90 @@ button {
 
 
 
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    padding: 20px;
+    height: auto;
+}
+
+.menu{
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+
+.small-box{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.small-box-1{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.big-box{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: fit-content;
+}
+
+.lev-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.lev-11{
+    border: 2px solid white;
+    width: 40%;
+    height: 100%;
+    gap: 20px;
+}
+
+
 /* footer */
 
 .footer{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
     display: flex;
-    direction: row;
-    justify-content: center;
-    width: 25%;
-    margin: 0 auto;
-    align-items: center;
-    gap: 20px;
+    justify-content: space-around;
+    width: 20%;
+    margin: 100px;
+    align-items: flex-start;
+    gap: 80px;
+
 }
 
 .foot-2,.foot-nav{
     display: flex;
-    direction: column;
+    flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     gap: 20px;
 }
+
